@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div, nav, section{
+	border: 1px solid white;
+}
+
+html{
+	height: 100%;
+    height:100%;
+}
+
+header, nav, section, article, aside, footer {
+	display:block;
+}
+
+body{
+	height:100%;
+	background: #020202;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px; 
+	font-size: 0.83vw;
+}
+
+#wrapper{
+	height: 100%;
+	background: url('../img/fon_slide1.jpg') no-repeat center center;
+	background-size: auto 100%;
+	position: relative;
+	border: 1px solid yellow;
+}
+
+.logo{
+	text-align: center;
+	/*width: 100%;*/
+	/*position: relative;*/
+	/*height: 100%;*/
+	margin: 0 auto;
+	width: 1600px;
+	height: 900px;
+
+}
+
+.logo object, 
+.logo embed {
+ position: absolute;
+ top: -60px;
+ left: -15px;
+ width: 100%;
+ height: 100%;
+}
+
+.logo1{
+	display: inline-block;
+	margin: 0 auto;
+	width: 500px;
+}
+
+.text{
+	/*border: 1px solid #3AE2CE;*/
+	position: absolute;
+	top: 42%;
+	left: 62%;
+	line-height: 38px;
+}
+
+.text h1{
+	/*position: absolute;
+	top: 42%;
+	left: 62%;*/
+	color: #FFFFFF;
+	font-size: 23px;
+	font-size: 1.198vw;
+	letter-spacing: 4px;
+}
+
+.text h3{
+	/*position: absolute;
+	top: 42%;
+	left: 62%;*/
+	color: #A79F94;
+	font-size: 14px;
+	font-size: 0.729vw;
+	letter-spacing: 4px;
+	font-weight: 100;
+}
+
+nav {
+	/*border: 1px solid yellow;*/
+	position: absolute;
+	bottom: 23%;
+	left: 35%;
+}
+
+nav ul {
+	display: table-row;
+}
+		
+nav ul li {
+	display: table-cell;
+	height: 10px;
+	line-height: 10px;
+	text-align: center;
+	padding: 6px 26px;
+	border-left: 2px solid #908C89;
+}
+		
+nav ul li:first-child {
+	border-left: none;
+}
+		
+nav ul li a {
+	text-decoration: none;
+	letter-spacing: 4px;
+	font-weight: 100;
+	font-size: 17px;
+	font-size: 0.885vw;
+	color: #FFFEFB;
+}
