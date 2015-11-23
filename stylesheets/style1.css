@@ -21,7 +21,7 @@ body{
 	font-size: 0.83vw;
 }
 
-#wrapper{
+#wrapper1{
 	border: 1px solid green;
 	width: 68%;
 	height: 100%;
@@ -31,13 +31,13 @@ body{
 	margin: 0 auto;
 }
 
-.logo{
+.logo1{
 	width: 34%;
 	position: absolute;
 	left: 2%;
 }
 
-.text{
+.text1{
 	/*border: 1px solid #3AE2CE;*/
 	position: absolute;
 	top: 5%;
@@ -45,14 +45,14 @@ body{
 	line-height: 25px;
 }
 
-.text h1{
+.text1 h1{
 	color: #FFFFFF;
 	font-size: 22px;
 	font-size: 1.146vw;
 	letter-spacing: 4px;
 }
 
-.text h3{
+.text1 h3{
 	color: #867F79;
 	font-size: 14px;
 	font-size: 0.729vw;
@@ -60,7 +60,7 @@ body{
 	font-weight: 100;
 }
 
-nav{
+.str2{
 	/*border: 1px solid yellow;*/
 	width: 450px;
 	top: 8%;
@@ -68,11 +68,11 @@ nav{
 	position: absolute;
 }
 
-nav ul{
+.str2 ul{
 	display: table;
 }
 		
-nav ul li{
+.str2 ul li{
 	display: table-cell;
 	width: 33%;
 	height: 10px;
@@ -82,11 +82,11 @@ nav ul li{
 	border-left: 2px solid #908C89;
 }
 		
-nav ul li:first-child{
+.str2 ul li:first-child{
 	border-left: none;
 }
 		
-nav ul li a{
+.str2 ul li a{
 	text-decoration: none;
 	font-family: Geneva, Arial, Helvetica, sans-serif;
 	font-weight: bold;
@@ -97,7 +97,7 @@ nav ul li a{
 	color: #FFFEFB;
 }
 
-nav ul li.current a{
+.str2 ul li.current a{
 	color: #812E28;
 	font-weight: 600;
 }
@@ -191,3 +191,14 @@ nav ul li.current a{
 	max-width: 100%;
 	margin-top: 20px;
 }
+
+#copy{
+	font-size: 14px;
+	font-size: 0.729vw;
+	font-style: italic;
+	color: #B5B5B5;
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+}
+
