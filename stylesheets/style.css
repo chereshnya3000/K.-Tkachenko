@@ -7,24 +7,24 @@
  	border: 1px solid white;
 }*/
 
-html{
+html {
  	height: 100%;
-    height:100%;
+    height: 100%;
 }
 
 header, nav, section, article, aside, footer {
- 	display:block;
+ 	display: block;
 }
 
-body{
- 	height:100%;
+body {
+ 	height: 100%;
  	background: #020202;
  	font-family: Geneva, Arial, Helvetica, sans-serif;
  	font-size: 16px; 
  	font-size: 0.83vw;
 }
 
-#wrapper1{
+#wrapper1 {
 	width: 100%;
 	max-width: 1600px;
 	height: 100%;
@@ -36,7 +36,7 @@ body{
 	/*border: 1px solid yellow;*/
 }
 
-.logo{
+.logo {
 	text-align: center;
 	max-width: 100%;
 	margin: 0 auto;
@@ -50,13 +50,13 @@ body{
 	height: 100%;
 }
 
-.logo1{
+.logo1 {
 	display: inline-block;
 	margin: 0 auto;
 	width: 500px;
 }
 
-.text{
+.text {
 	width: 19%;
 	height: 7%;
 	position: absolute;
@@ -65,14 +65,14 @@ body{
 	line-height: 250%;
 }
 
-.text h1{
+.text h1 {
 	color: #FFFFFF;
 	font-size: 23px;
 	font-size: 1.198vw;
 	letter-spacing: 0.2vw;
 }
 
-.text h3{
+.text h3 {
 	color: #A79F94;
 	font-size: 14px;
 	font-size: 0.729vw;
@@ -114,11 +114,11 @@ body{
 	color: #FFFEFB;
 }
 
-.str1 ul li a:hover{
+.str1 ul li a:hover {
 	color: #8B2927;
 }
 
-.dart{
+.dart {
 	/*border: 1px solid #76339A;*/
 	width: 5%;
 	position: relative;
@@ -127,7 +127,7 @@ body{
 	overflow: hidden;
 }
 
-.dart a img{
+.dart a img {
 	width: 100%;
 	height: auto;
 	
@@ -135,7 +135,7 @@ body{
 
 /*==================================================*/
 
-#wrapper2{
+#wrapper2 {
 	width: 100%;
 	max-width: 1600px;
 	height: 100%;
@@ -147,13 +147,13 @@ body{
 	/*border: 1px solid green;*/
 }
 
-.logo1{
+.logo1 {
 	width: 34%;
 	position: absolute;
 	left: 2%;
 }
 
-.text1{
+.text1 {
 	width: 19%;
 	height: 5%;
 	position: absolute;
@@ -162,14 +162,14 @@ body{
 	line-height: 150%;
 }
 
-.text1 h1{
+.text1 h1 {
 	color: #FFFFFF;
 	font-size: 22px;
 	font-size: 1.146vw;
 	letter-spacing: 0.2vw;
 }
 
-.text1 h3{
+.text1 h3 {
 	color: #867F79;
 	font-size: 14px;
 	font-size: 0.729vw;
@@ -177,7 +177,7 @@ body{
 	font-weight: 100;
 }
 
-.content{
+.content {
 	/*border: 1px solid yellow;*/
 	width: 100%;
 	height: 100%;
@@ -185,7 +185,7 @@ body{
 	position: absolute;
 }
 
-.str2{
+.str2 {
 	display: table;
 	width: 33%;
 	height: 2.5%;
@@ -195,22 +195,22 @@ body{
 	text-align: center;
 }
 
-.str2 ul{
+.str2 ul {
 	display: table-row;
 }
 		
-.str2 ul li{
+.str2 ul li {
 	display: table-cell;
 	width: 33%;
 	border-left: 2px solid #908C89;
 	vertical-align: middle;
 }
 		
-.str2 ul li:first-child{
+.str2 ul li:first-child {
 	border-left: none;
 }
 		
-.str2 ul li a{
+.str2 ul li a {
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 16px;
@@ -220,11 +220,11 @@ body{
 	color: #FFFEFB;
 }
 
-.str2 ul li a:hover{
+.str2 ul li a:hover {
 	color: #8B2927;
 }
 
-.left{
+.left {
 	width: 64%;
 	height: 86%;
 	float: left;
@@ -234,22 +234,22 @@ body{
 	padding: 1% 1% 0 0 ;
 }
 
-.clearfix{
+.clearfix {
 	clear: both;
 }
 
-.left img, .right img{
+.left img, .right img {
 	box-shadow: 4px 3px 11px 0px #000000;
 }
 
-.left .block1{
+.left .block1 {
 	display: inline-block;
 	/*border: 1px dotted blue;*/
 	position: relative;
 	float: right;
 }
 
-.left .block1:hover:before{
+.left .block1:hover:before {
 	content: " ";
 	top: 0;
 	left: 0;
@@ -261,7 +261,7 @@ body{
 	background: #8B2926;
 }
 
-.left .block1:hover:after{
+.left .block1:hover:after {
     content: " книга ";
     white-space: pre;
     font-size: 18px;
@@ -275,20 +275,20 @@ body{
     left: 40%;
 }
 
-.left .block1 img{
+.left .block1 img {
 	width: 435px;
 	max-width: 100%;
 	margin-bottom: 4%;
 }
 
-.left .block2{
+.left .block2 {
 	display: inline-block;
 	/*border: 1px dotted blue;*/
 	position: relative;
 	float: right;
 }
 
-.left .block2:hover:before{
+.left .block2:hover:before {
 	content: " ";
 	top: 0;
 	left: 0;
@@ -300,7 +300,7 @@ body{
 	background: #8B2926;
 }
 
-.left .block2:hover:after{
+.left .block2:hover:after {
     content: "часопис";
     white-space: pre;
     font-size: 18px;
@@ -314,13 +314,13 @@ body{
     left: 11%;
  }
 
-.left .block2 img{
+.left .block2 img {
 	width: 130px;
 	max-width: 100%;
 	margin-bottom: 6%;
 }
 
-.left .block3{
+.left .block3 {
 	display: inline-block;
 	/*border: 1px dotted blue;*/
 	position: relative;
@@ -328,7 +328,7 @@ body{
 	margin-right: 2%;
 }
 
-.left .block3:hover:before{
+.left .block3:hover:before {
 	content: " ";
 	top: 0;
 	left: 0;
@@ -340,7 +340,7 @@ body{
 	background: #8B2926;
 }
 
-.left .block3:hover:after{
+.left .block3:hover:after {
     content: " геральдика ";
     white-space: pre;
     font-size: 18px;
@@ -354,20 +354,20 @@ body{
     left: 22%;
 }
 
-.left .block3 img{
+.left .block3 img {
 	width: 282px;
 	max-width: 100%;
 	margin-bottom: 6%;
 }
 
-.left .block4{
+.left .block4 {
 	display: inline-block;
 	/*border: 1px dotted blue;*/
 	position: relative;
 	float: right;
 }
 
-.left .block4:hover:before{
+.left .block4:hover:before {
 	content: " ";
 	top: 0;
 	left: 0;
@@ -379,7 +379,7 @@ body{
 	background: #8B2926;
 }
 
-.left .block4:hover:after{
+.left .block4:hover:after {
     content: " стиль ";
     white-space: pre;
     font-size: 18px;
@@ -393,13 +393,13 @@ body{
     left: 34%;
 }
 
-.left .block4 img{
+.left .block4 img {
 	width: 281px;
 	max-width: 100%;
 	margin-bottom: 4%;
 }
 
-.left .block5{
+.left .block5 {
 	display: inline-block;
 	/*border: 1px dotted blue;*/
 	position: relative;
@@ -407,7 +407,7 @@ body{
 	margin-right: 2%;
 }
 
-.left .block5:hover:before{
+.left .block5:hover:before {
 	content: " ";
 	top: 0;
 	left: 0;
@@ -418,7 +418,7 @@ body{
 	display: inline-block;
 	background: #8B2926;
 }
-.left .block5:hover:after{
+.left .block5:hover:after {
     content: " дизайн ";
     white-space: pre;
     font-size: 18px;
@@ -432,13 +432,13 @@ body{
     left: 32%;
 }
 
-.left .block5 img{
+.left .block5 img {
 	width: 280px;
 	max-width: 100%;
 	margin-bottom: 5%;
 }
 
-.right{
+.right {
 	width: 34%;
 	height: 86%;
 	float: right;
@@ -448,14 +448,14 @@ body{
 	padding-top: 1%;
 }
 
-.right .block1{
+.right .block6 {
 	display: inline-block;
 	/*border: 1px dotted blue;*/
 	position: relative;
 	float: left;
 }
 
-.right .block1:hover:before{
+.right .block6:hover:before {
 	content: " ";
 	top: 0;
 	left: 0;
@@ -467,7 +467,7 @@ body{
 	background: #8B2926;
 }
 
-.right .block1:hover:after{
+.right .block6:hover:after {
     content: " реклама ";
     white-space: pre;
     font-size: 18px;
@@ -481,20 +481,20 @@ body{
     left: 28%;
 }
 
-.right .block1 img{
+.right .block6 img {
 	width: 288px;
 	max-width: 100%;
 	margin-bottom: 6%;
 }
 
-.right .block2{
+.right .block7 {
 	display: inline-block;
 	/*border: 1px dotted blue;*/
 	position: relative;
 	float: left;
 }
 
-.right .block2:hover:before{
+.right .block7:hover:before {
 	content: " ";
 	top: 0;
 	left: 0;
@@ -506,7 +506,7 @@ body{
 	background: #8B2926;
 }
 
-.right .block2:hover:after{
+.right .block7:hover:after {
     content: " монограма ";
     white-space: pre;
     font-size: 18px;
@@ -520,20 +520,20 @@ body{
     left: 32%;
 }
 
-.right .block2 img{
+.right .block7 img {
 	width: 428px;
 	max-width: 100%;
 	margin-bottom: 4%;
 }
 
-.right .block3{
+.right .block8 {
 	display: inline-block;
 	/*border: 1px dotted blue;*/
 	position: relative;
 	float: left;
 }
 
-.right .block3:hover:before{
+.right .block8:hover:before {
 	content: " ";
 	top: 0;
 	left: 0;
@@ -545,7 +545,7 @@ body{
 	background: #8B2926;
 }
 
-.right .block3:hover:after{
+.right .block8:hover:after {
     content: " каліграфія ";
     white-space: pre;
     font-size: 18px;
@@ -559,13 +559,13 @@ body{
     left: 22%;
 }
 
-.right .block3 img{
+.right .block8 img {
 	width: 280px;
 	max-width: 100%;
 	margin-bottom: 4%;
 }
 
-.anchor1{
+.anchor1 {
 	font-size: 14px;
 	font-size: 0.729vw;
 	font-style: italic;
