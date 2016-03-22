@@ -24,25 +24,25 @@ body {
  	font-size: 0.83vw;
 }
 
-#wrapper3 {
+#wrapper2 {
 	width: 100%;
 	max-width: 1600px;
 	height: 100%;
 	max-height: 1200px;
-	background: url('../img/fon_slide1.jpg') no-repeat center center;
+ 	background: url('../img/fon_slide2.jpg') no-repeat center center;
 	background-size: auto 100%;
 	position: relative;
 	margin: 0 auto;
 	/*border: 1px solid green;*/
 }
 
-.logo {
+.logo1 {
 	width: 26%;
 	position: absolute;
 	left: 10%;
 }
 
-.text {
+.text1 {
 	width: 19%;
 	height: 5%;
 	position: absolute;
@@ -51,14 +51,14 @@ body {
 	line-height: 150%;
 }
 
-.text h1 {
+.text1 h1 {
 	color: #FFFFFF;
 	/*font-size: 22px;*/
 	font-size: 1.16vw;
 	letter-spacing: 0.1vw;
 }
 
-.text h3 {
+.text1 h3 {
 	color: #867F79;
 	/*font-size: 14px;*/
 	font-size: 0.75vw;
@@ -67,10 +67,14 @@ body {
 }
 
 .content {
-	
+	/*border: 1px solid yellow;*/
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0;
+	position: absolute;
 }
 
-nav {
+.str2 {
 	display: table;
 	/*border: 1px solid red;*/
 	width: 33%;
@@ -81,21 +85,21 @@ nav {
 	/*margin: 0 auto;*/
 }
 
-nav ul {
+.str2 ul {
 	display: table-row;
 }
 		
-nav ul li {
+.str2 ul li {
 	display: table-cell;
 	border-left: 2px solid #908C89;
 	vertical-align: middle;
 }
 		
-nav ul li:first-child {
+.str2 ul li:first-child {
 	border-left: none;
 }
 		
-nav ul li a {
+.str2 ul li a {
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 0.833vw;
@@ -104,19 +108,11 @@ nav ul li a {
 	color: #FFFEFB;
 }
 
-nav ul li a:hover {
+.str2 ul li a:hover {
 	color: #8B2927;
 }
 
-.picture {
-	width: 600px;
-	height: 600px;
-	background: url('../img/Жираф.jpg') round;
-	margin: 0 auto;
-	margin-top: 12%;
-}
-
-.copy{
+.anchor1 {
 	/*font-size: 14px;*/
 	font-size: 0.729vw;
 	font-style: italic;

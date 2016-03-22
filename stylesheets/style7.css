@@ -1,33 +1,127 @@
 * {
-	margin: 0;
-	padding: 0;
+ 	margin: 0;
+ 	padding: 0;
 }
 
-html{
-	height: 100%;
-    height:100%;
+/*div, nav, section{
+ 	border: 1px solid white;
+}*/
+
+html {
+ 	height: 100%;
+    height: 100%;
 }
 
 header, nav, section, article, aside, footer {
-	display:block;
+ 	display: block;
 }
 
-body{
-	/*border: 5px solid yellow;*/
-	height:100%;
-	background: #020202;
-	font-family: Geneva, Arial, Helvetica, sans-serif;
-	font-size: 16px; 
-	font-size: 0.83vw;
+body {
+ 	height: 100%;
+ 	background: #020202;
+ 	font-family: Geneva, Arial, Helvetica, sans-serif;
+ 	font-size: 16px; 
+ 	font-size: 0.83vw;
 }
 
-#wrapper3{
-	border: 1px solid green;
-	width: 68%;
+#wrapper3 {
+	width: 100%;
+	max-width: 1600px;
 	height: 100%;
+	max-height: 1200px;
 	background: url('../img/fon_slide1.jpg') no-repeat center center;
 	background-size: auto 100%;
 	position: relative;
 	margin: 0 auto;
+	/*border: 1px solid green;*/
 }
 
+.logo {
+	width: 26%;
+	position: absolute;
+	left: 10%;
+}
+
+.text {
+	width: 19%;
+	height: 5%;
+	position: absolute;
+	top: 5%;
+	left: 21%;
+	line-height: 150%;
+}
+
+.text h1 {
+	color: #FFFFFF;
+	/*font-size: 22px;*/
+	font-size: 1.16vw;
+	letter-spacing: 0.1vw;
+}
+
+.text h3 {
+	color: #867F79;
+	/*font-size: 14px;*/
+	font-size: 0.75vw;
+	letter-spacing: 0.1vw;
+	font-weight: 100;
+}
+
+.content {
+	
+}
+
+nav {
+	display: table;
+	/*border: 1px solid red;*/
+	width: 33%;
+	text-align: center;
+	position: relative;
+	top: 8%;
+	left: 57%;
+	/*margin: 0 auto;*/
+}
+
+nav ul {
+	display: table-row;
+}
+		
+nav ul li {
+	display: table-cell;
+	border-left: 2px solid #908C89;
+	vertical-align: middle;
+}
+		
+nav ul li:first-child {
+	border-left: none;
+}
+		
+nav ul li a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 0.833vw;
+	font-weight: 100;
+	letter-spacing: 0.1vw;
+	color: #FFFEFB;
+}
+
+nav ul li a:hover {
+	color: #8B2927;
+}
+
+.picture {
+	width: 600px;
+	height: 600px;
+	background: url('../img/Жираф.jpg') round;
+	margin: 0 auto;
+	margin-top: 12%;
+}
+
+.copy{
+	/*font-size: 14px;*/
+	font-size: 0.729vw;
+	font-style: italic;
+	color: #B5B5B5;
+	position: absolute;
+	bottom: 2%;
+	left: 11%;
+}
